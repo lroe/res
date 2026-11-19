@@ -1,0 +1,106 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[a4paper,left=0.4in,right=0.4in,top=0.3in,bottom=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\newcommand{\cvsection}[1]{%
+  \par\vspace{14pt}%
+  {\large\bfseries #1\par}%
+  \vspace{-7.2pt}%
+  \noindent\rule{\linewidth}{0.4pt}\par
+  \vspace{-1pt}%
+}
+
+\newcommand{\entry}[4]{%
+  {\bfseries #1}\hfill #4\par
+  \vspace{1pt}%
+  #2\hfill #3\par
+  \vspace{1pt}%
+}
+
+\setlist[itemize]{leftmargin=24pt,labelsep=5.5pt,itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+
+\begin{document}
+
+\begingroup
+\centering
+{\Huge\scshape Jeevan Kumar\par}
+\vspace{4.9pt}
+{\normalsize India\par}
+\vspace{4.9pt}
+{\normalsize
+\href{https://jeevan.life}{\underline{jeevan.life}} \textbar{}
+\href{https://www.youtube.com/@rubyfilmsonyt}{\underline{YouTube: @rubyfilmsonyt}} \textbar{}
+\href{https://www.linkedin.com/in/jeevan-kumar-a5266736a/}{\underline{LinkedIn}} \textbar{}
+\href{https://github.com/lroe}{\underline{github.com/lroe}}\par}
+\endgroup
+
+\cvsection{Summary}
+I am a 0 to 1 builder who has built AI products end to end, from concept to launch. I thrive in early-stage environments
+and enjoy transforming rough ideas into well-crafted, user-facing products. Passionate about bridging the gap between
+complex AI research and practical application.
+
+\cvsection{AI Research \& Communication}
+\vspace{4.5pt}
+{\bfseries Ruby Films} \textbar{} \href{https://www.youtube.com/@rubyfilmsonyt}{\underline{youtube.com/@rubyfilmsonyt}}\hfill 2025 -- Present\par
+\vspace{1pt}
+\begin{itemize}
+  \item Started Ruby Films, a YouTube channel that teaches AI without the jargon, breaking down cutting-edge research papers in a fun, accessible way.
+  \item Exploring the full AI landscape: LLMs, computer vision, agents, robotics, and more.
+  \item Turning dense academic material into clear, engaging explanations for engineers and curious learners.
+\end{itemize}
+
+\cvsection{Work Experience}
+\entry{Guidee AI Labs}{Founding Engineer (AI Voice Agents for Healthcare)}{\href{https://guidee.me}{\underline{guidee.me}}}{Current}
+\begin{itemize}
+  \item Developing intelligent voice AI that operates 24/7 to automate patient appointment scheduling.
+  \item Designing systems to reduce no-shows and enhance patient care through immediate, conversational assistance.
+  \item Building scalable voice infrastructure capable of handling complex patient queries autonomously.
+\end{itemize}
+
+\entry{theapplefalls}{Creator \& Lead Developer}{\href{https://jeevan.life/theapplefalls}{\underline{jeevan.life/theapplefalls}}}{2025}
+\begin{itemize}
+  \item Building an interactive digital twin environment simulating capacitors, resistors, motors, logic gates, and transistors.
+  \item Designed a progression that teaches concepts from electromagnetism to constructing a full computer through simulation.
+  \item Implemented real-time 3D simulations using Three.js with an emphasis on experimentation and system-level thinking.
+  \item Focused on lowering barriers to robotics education by replacing costly physical labs with virtual environments.
+\end{itemize}
+
+\entry{Pitchine}{Solo Developer}{}{2024}
+\begin{itemize}
+  \item Solo-built a product that lets founders practice pitching out loud to an AI-simulated boardroom of investors.
+  \item Designed real-time speech analysis, follow-up questioning, and structured scoring with actionable feedback.
+  \item Modeled investor behavior using patterns learned from YC videos, Paul Graham essays, and real pitch decks.
+\end{itemize}
+
+\entry{EdTech Tool (formerly guidee.me)}{Full Stack Developer}{}{}
+\begin{itemize}
+  \item Built and launched a platform that transformed user-uploaded notes into structured lesson flows using LLMs.
+  \item Implemented backend systems in Python and frontend in JavaScript with LLM-based content segmentation.
+  \item Reached 100+ users organically through a single Reddit post before evolving the concept into \textbf{theapplefalls}.
+\end{itemize}
+
+\cvsection{Education}
+\entry{College of Engineering Trivandrum}{B.Tech in Computer Science}{Trivandrum, India}{2021 -- 2025}
+
+\cvsection{Technical Skills}
+\begin{itemize}[leftmargin=10.8pt,label={},labelsep=0pt,itemsep=0pt,topsep=0pt]
+  \item \textbf{Languages:} Python, JavaScript, C, Java
+  \item \textbf{Web \& Frontend:} React, React Native, WebGL, Three.js
+  \item \textbf{Backend \& Data:} REST APIs, MySQL, PostgreSQL
+  \item \textbf{AI/ML:} Generative AI, LLM APIs, Prompt Design, Machine Learning, Deep Learning
+\end{itemize}
+
+\cvsection{Writing \& Exploration}
+\begin{itemize}
+  \item Author of a personal blog (jeevan.life) writing about learning, building, and thinking from first principles.
+  \item Strong bias toward deliberate practice and first-principles learning across domains.
+  \item Developed realistic pencil portrait drawing skills through consistent daily practice.
+\end{itemize}
+
+\end{document}
